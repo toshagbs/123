@@ -1,4 +1,4 @@
-a, b, c = (c for c in input() if c != ' ')
+a, b, c = map(int, input().split())
 if 1000<=a<=-1000 or 1000<=b<=-1000 or 1000<=c<=-1000:
     print(0)
 elif a<=b<=c or c<=b<=a:
