@@ -8,6 +8,6 @@ while a>0:
         sum_nechet+=a%10
     a=a//10
 if (sum_chet*3+sum_nechet)%10==0:
-    print('yup')
+    print('yes')
 else:
-    print('nope')
+    print('no')
